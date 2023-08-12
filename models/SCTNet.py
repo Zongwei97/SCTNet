@@ -616,7 +616,7 @@ class UpsampleOneStep(nn.Sequential):
 
 
 class SCTNet(nn.Module):
-    r""" SwinIR
+    r""" 
     Args:
         img_size (int | tuple(int)): Input image size. Default 64
         patch_size (int | tuple(int)): Patch size. Default: 1
