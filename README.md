@@ -1,4 +1,4 @@
-# SCTNet
+# SCTNet ICCV'23
 
 This is the official implementation of Alignment-free HDR Deghosting with Semantics Consistent Transformer, accepted in ICCV'23
 
