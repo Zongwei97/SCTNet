@@ -2,6 +2,14 @@
 
 This is the official implementation of Alignment-free HDR Deghosting with Semantics Consistent Transformer, accepted in ICCV'23
 
+> **Authors:** 
+> [Steven Tel](https://imvia.u-bourgogne.fr/equipe/tel-steven) *,
+> [Zongwei Wu](https://scholar.google.fr/citations?user=3QSALjX498QC&hl=en) *,
+> [Yulun Zhang](https://scholar.google.fr/citations?user=ORmLjWoAAAAJ&hl=en&oi=ao) $`^\dagger`$, 
+> [Barthélémy Heyrman](https://scholar.google.fr/citations?user=2VOpb80AAAAJ&hl=en&oi=ao),
+> [Cédric Demonceaux](https://scholar.google.fr/citations?user=CCvaUR4AAAAJ&hl=en),
+> [Radu Timofte](https://scholar.google.fr/citations?user=u3MwH5kAAAAJ&hl=en),
+> and [Dominique Ginhac](https://scholar.google.fr/citations?user=fkdCT5kAAAAJ&hl=en&oi=ao).
 
 ## Abstract
 
