@@ -40,7 +40,7 @@ Our ckpt for our dataset can be found here ([Google Drive](https://drive.google.
 
 ## Our results
 
-The ckpt trained on our dataset can be found here ([Google Drive](https://drive.google.com/file/d/1k3H9kQ1STanGABiEDAcrAzWdAGuxI0ZG/view?usp=sharing))
+Our results can be found here ([Google Drive](https://drive.google.com/file/d/17sH3azAp6cmd7hIvI7wL4dXTKPvEYe3R/view?usp=sharing))
 
 ![abstract](https://github.com/Zongwei97/SCTNet/blob/main/Imgs/quanti.png)
 
