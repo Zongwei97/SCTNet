@@ -20,7 +20,7 @@ High dynamic range (HDR) imaging aims to retrieve information from multiple low-
 
 ## Dataset
 
-Our HDR dataset can be downloaded from here ([Google Drive](https://drive.google.com/file/d/1sXEBh190tD8T7POwjslV4FOrjb2s94T5/view?usp=sharing))
+Our HDR dataset will be released
 
 To use our dataset, just set the right data path in the training file.
 
