@@ -20,7 +20,7 @@ High dynamic range (HDR) imaging aims to retrieve information from multiple low-
 
 ## Dataset
 
-Our HDR dataset will be released
+Our HDR dataset can be found from [here](https://cloud.u-bourgogne.fr/index.php/s/rytg9Zf9qWjk9Mb)
 
 To use our dataset, just set the right data path in the training file.
 
