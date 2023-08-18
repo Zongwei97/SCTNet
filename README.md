@@ -1,6 +1,8 @@
 # SCTNet ICCV'23
 
-This is the official implementation of Alignment-free HDR Deghosting with Semantics Consistent Transformer, accepted in ICCV'23
+This is the official implementation of Alignment-free HDR Deghosting with Semantics Consistent Transformer, accepted in ICCV'23.
+
+Project page [web](https://steven-tel.github.io/sctnet/)
 
 > **Authors:** 
 > [Steven Tel](https://imvia.u-bourgogne.fr/equipe/tel-steven) *,
