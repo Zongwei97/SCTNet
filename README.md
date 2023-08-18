@@ -2,8 +2,6 @@
 
 This is the official implementation of Alignment-free HDR Deghosting with Semantics Consistent Transformer, accepted in ICCV'23.
 
-Project page [web](https://steven-tel.github.io/sctnet/)
-
 > **Authors:** 
 > [Steven Tel](https://imvia.u-bourgogne.fr/equipe/tel-steven) *,
 > [Zongwei Wu](https://scholar.google.fr/citations?user=3QSALjX498QC&hl=en) *,
@@ -12,6 +10,10 @@ Project page [web](https://steven-tel.github.io/sctnet/)
 > [Cédric Demonceaux](https://scholar.google.fr/citations?user=CCvaUR4AAAAJ&hl=en),
 > [Radu Timofte](https://scholar.google.fr/citations?user=u3MwH5kAAAAJ&hl=en),
 > and [Dominique Ginhac](https://scholar.google.fr/citations?user=fkdCT5kAAAAJ&hl=en&oi=ao).
+
+
+Project page [web](https://steven-tel.github.io/sctnet/)
+
 
 ## Abstract
 
@@ -49,7 +51,19 @@ Our results can be found here ([Google Drive](https://drive.google.com/file/d/17
 
 ![abstract](https://github.com/Zongwei97/SCTNet/blob/main/Imgs/results.png)
 
+# Citation
 
+If you find this repo useful, please consider citing:
+
+```
+@INPROCEEDINGS{tel2023alignment,
+  title={Alignment-free HDR Deghosting with Semantics Consistent Transformer},
+  author={Tel, Steven and Wu, Zongwei and Zhang, Yulun and Heyrman, Barth{\'e}l{\'e}my and Demonceaux, C{\'e}dric and Timofte, Radu and Ginhac, Dominique},
+  booktitle={ICCV}, 
+  year={2023},
+}
+  
+```
 
 # Acknowledgments
 This repository is heavily based on [HDR-Transformer](https://github.com/liuzhen03/HDR-Transformer-PyTorch). Thanks to their great work!
