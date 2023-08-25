@@ -300,12 +300,12 @@ class Mutual_Attention(nn.Module):
         self.project_out = nn.Conv2d(dim, dim, kernel_size=1, bias=bias)
 
     def forward(self, x, y):
-        assert x.shape == y.shape, 'The shape of feature maps from image and event branch are not equal!'
+        assert x.shape == y.shape, 
         b, c, h, w = x.shape
 
-        q = self.q(x)  # image
-        k = self.k(y)  # event
-        v = self.v(y)  # event
+        q = self.q(x)  
+        k = self.k(y)  
+        v = self.v(y)  
 
         q = rearrange(q, 'b (head c) h w -> b head c (h w)', head=self.num_heads)
         k = rearrange(k, 'b (head c) h w -> b head c (h w)', head=self.num_heads)
@@ -393,8 +393,6 @@ class Attention(nn.Module):
             self.norm = nn.LayerNorm(dim)
 
     def forward(self, x, y, H=None, W=None):
-        # x: image
-        # y: event
         assert x.dim() == 3, x.shape
         assert x.shape == y.shape
         B, N, C = x.shape
@@ -440,7 +438,7 @@ class Merge_Attention(nn.Module):
         self.convout = nn.Conv2d(dim, dim, kernel_size=1, bias=bias)
 
     def forward(self, x, y):
-        assert x.shape == y.shape, 'The shape of feature maps from image and event branch are not equal!'
+        assert x.shape == y.shape,
         b, c, h, w = x.shape
 
         q1 = self.q1(x)
