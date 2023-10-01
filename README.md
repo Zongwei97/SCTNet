@@ -26,12 +26,12 @@ High dynamic range (HDR) imaging aims to retrieve information from multiple low-
 
 Our HDR dataset can be found [here](https://drive.google.com/drive/folders/1CtvUxgFRkS56do_Hea2QC7ztzglGfrlB)
 
-The benchmarking results are available at [Google Drive](https://drive.google.com/file/d/1fCQh26zwwVUdWCC8GsnPdRa9J9MUuqM_/view?usp=sharing).
 We retrain several SOTA counterparts from the official codes.  The quantitative performances are as follows:
 
 ![abstract](https://github.com/Zongwei97/SCTNet/blob/main/Supp/Benchmark.png)
 
-The HDRVDP metric is computed at 30 degrees and at 0.55 meters for our dataset.
+The benchmarking results are available at [Google Drive](https://drive.google.com/file/d/1fCQh26zwwVUdWCC8GsnPdRa9J9MUuqM_/view?usp=sharing).
+The HDR-VDP metric is computed at 30 degrees and at 0.55 meters.
 
 ## Train and Test
 
