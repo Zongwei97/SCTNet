@@ -1,26 +1,20 @@
-# SCTNet ICCV'23
+# Alignment-free HDR Deghosting with Semantics Consistent Transformer
 
-This is the official implementation of Alignment-free HDR Deghosting with Semantics Consistent Transformer, accepted in ICCV'23.
+[Steven Tel](https://imvia.u-bourgogne.fr/equipe/tel-steven) *, [Zongwei Wu](https://scholar.google.fr/citations?user=3QSALjX498QC&hl=en) *, [Yulun Zhang](https://scholar.google.fr/citations?user=ORmLjWoAAAAJ&hl=en&oi=ao) $`^\dagger`$, [Barthélémy Heyrman](https://scholar.google.fr/citations?user=2VOpb80AAAAJ&hl=en&oi=ao), [Cédric Demonceaux](https://scholar.google.fr/citations?user=CCvaUR4AAAAJ&hl=en), [Radu Timofte](https://scholar.google.fr/citations?user=u3MwH5kAAAAJ&hl=en), and [Dominique Ginhac](https://scholar.google.fr/citations?user=fkdCT5kAAAAJ&hl=en&oi=ao), "Alignment-free HDR Deghosting with Semantics Consistent Transformer", ICCV, 2023
 
-> **Authors:** 
-> [Steven Tel](https://imvia.u-bourgogne.fr/equipe/tel-steven) *,
-> [Zongwei Wu](https://scholar.google.fr/citations?user=3QSALjX498QC&hl=en) *,
-> [Yulun Zhang](https://scholar.google.fr/citations?user=ORmLjWoAAAAJ&hl=en&oi=ao) $`^\dagger`$, 
-> [Barthélémy Heyrman](https://scholar.google.fr/citations?user=2VOpb80AAAAJ&hl=en&oi=ao),
-> [Cédric Demonceaux](https://scholar.google.fr/citations?user=CCvaUR4AAAAJ&hl=en),
-> [Radu Timofte](https://scholar.google.fr/citations?user=u3MwH5kAAAAJ&hl=en),
-> and [Dominique Ginhac](https://scholar.google.fr/citations?user=fkdCT5kAAAAJ&hl=en&oi=ao).
+[[arXiv](https://arxiv.org/pdf/2305.18135.pdf)][[supp](https://github.com/Zongwei97/SCTNet/blob/main/Supp/Supplementary.pdf)]
+
+---
 
 Note that there are some corrections made to the conference proceedings to address issues with the production of our benchmark input. We have now updated Table 3 and Figure 6 to reflect these changes. Please refer to [Manuscript](https://arxiv.org/pdf/2305.18135.pdf), [Supplementary](https://github.com/Zongwei97/SCTNet/blob/main/Supp/Supplementary.pdf) and [Web](https://steven-tel.github.io/sctnet/).
 
+---
 
+> **Abstract:** *High dynamic range (HDR) imaging aims to retrieve information from multiple low-dynamic range inputs to generate realistic output. The essence is to leverage the contextual information, including both dynamic and static semantics, for better image generation. Existing methods often focus on the spatial misalignment across input frames caused by the foreground and/or camera motion. However, there is no research on jointly leveraging the dynamic and static context in a simultaneous manner.  To delve into this problem, we propose a novel alignment-free network with a Semantics Consistent Transformer (SCTNet) with both spatial and channel attention modules in the network. The spatial attention aims to deal with the intra-image correlation to model the dynamic motion, while the channel attention enables the inter-image intertwining to enhance the semantic consistency across frames. Aside from this, we introduce a novel realistic HDR dataset with more variations in foreground objects, environmental factors, and larger motions. Extensive comparisons on both conventional datasets and ours validate the effectiveness of our method, achieving the best trade-off on the performance and the computational cost.*
+>
+> <img src="https://github.com/Zongwei97/SCTNet/blob/main/Supp/abstract.png"  width="500" />
 
-## Abstract
-
-High dynamic range (HDR) imaging aims to retrieve information from multiple low-dynamic range inputs to generate realistic output. The essence is to leverage the contextual information, including both dynamic and static semantics, for better image generation. Existing methods often focus on the spatial misalignment across input frames caused by the foreground and/or camera motion. However, there is no research on jointly leveraging the dynamic and static context in a simultaneous manner.  To delve into this problem, we propose a novel alignment-free network with a Semantics Consistent Transformer (SCTNet) with both spatial and channel attention modules in the network. The spatial attention aims to deal with the intra-image correlation to model the dynamic motion, while the channel attention enables the inter-image intertwining to enhance the semantic consistency across frames. Aside from this, we introduce a novel realistic HDR dataset with more variations in foreground objects, environmental factors, and larger motions. Extensive comparisons on both conventional datasets and ours validate the effectiveness of our method, achieving the best trade-off on the performance and the computational cost.
-
-<img src="https://github.com/Zongwei97/SCTNet/blob/main/Supp/abstract.png"  width="500" />
-
+---
 
 ## Our Dataset and Benchmark
 
