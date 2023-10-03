@@ -1,6 +1,6 @@
 # Alignment-free HDR Deghosting with Semantics Consistent Transformer
 
-[Steven Tel](https://imvia.u-bourgogne.fr/equipe/tel-steven) *, [Zongwei Wu](https://scholar.google.fr/citations?user=3QSALjX498QC&hl=en) *, [Yulun Zhang](https://scholar.google.fr/citations?user=ORmLjWoAAAAJ&hl=en&oi=ao) $`^\dagger`$, [Barthélémy Heyrman](https://scholar.google.fr/citations?user=2VOpb80AAAAJ&hl=en&oi=ao), [Cédric Demonceaux](https://scholar.google.fr/citations?user=CCvaUR4AAAAJ&hl=en), [Radu Timofte](https://scholar.google.fr/citations?user=u3MwH5kAAAAJ&hl=en), and [Dominique Ginhac](https://scholar.google.fr/citations?user=fkdCT5kAAAAJ&hl=en&oi=ao), "Alignment-free HDR Deghosting with Semantics Consistent Transformer", ICCV, 2023
+[Steven Tel](https://scholar.google.com/citations?user=OhVOZ8oAAAAJ&hl=en) *, [Zongwei Wu](https://scholar.google.fr/citations?user=3QSALjX498QC&hl=en) *, [Yulun Zhang](https://scholar.google.fr/citations?user=ORmLjWoAAAAJ&hl=en&oi=ao) $`^\dagger`$, [Barthélémy Heyrman](https://scholar.google.fr/citations?user=2VOpb80AAAAJ&hl=en&oi=ao), [Cédric Demonceaux](https://scholar.google.fr/citations?user=CCvaUR4AAAAJ&hl=en), [Radu Timofte](https://scholar.google.fr/citations?user=u3MwH5kAAAAJ&hl=en), and [Dominique Ginhac](https://scholar.google.fr/citations?user=fkdCT5kAAAAJ&hl=en&oi=ao), "Alignment-free HDR Deghosting with Semantics Consistent Transformer", ICCV, 2023
 
 [[arXiv](https://arxiv.org/pdf/2305.18135.pdf)][[supp](https://github.com/Zongwei97/SCTNet/blob/main/Supp/Supplementary.pdf)]
 
@@ -25,7 +25,10 @@ We retrain several SOTA counterparts from the official codes.  The quantitative 
 ![abstract](https://github.com/Zongwei97/SCTNet/blob/main/Supp/Benchmark.png)
 
 The benchmarking results are available at [Google Drive](https://drive.google.com/file/d/1fCQh26zwwVUdWCC8GsnPdRa9J9MUuqM_/view?usp=sharing).
-The HDR-VDP metric is computed at 30 degrees and at 0.55 meters.
+The HDR-VDP-2 and PU21 metrics can be computed using the provided script:
+```
+matlab utils/hdrvdp2_pu21/run/test.m
+```
 
 ## Train and Test
 
