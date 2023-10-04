@@ -25,7 +25,7 @@ We retrain several SOTA counterparts from the official codes.  The quantitative 
 ![abstract](https://github.com/Zongwei97/SCTNet/blob/main/Supp/Benchmark.png)
 
 The benchmarking results are available at [Google Drive](https://drive.google.com/file/d/1fCQh26zwwVUdWCC8GsnPdRa9J9MUuqM_/view?usp=sharing).
-The HDR-VDP-2 and PU21 metrics can be computed using the provided script:
+The HDR-VDP-2 and PU21 metrics from the Table can be computed using the provided script:
 ```
 matlab utils/hdrvdp2_pu21/run/test.m
 ```
