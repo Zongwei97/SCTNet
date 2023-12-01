@@ -300,7 +300,7 @@ class Mutual_Attention(nn.Module):
         self.project_out = nn.Conv2d(dim, dim, kernel_size=1, bias=bias)
 
     def forward(self, x, y):
-        assert x.shape == y.shape, 
+        assert x.shape == y.shape
         b, c, h, w = x.shape
 
         q = self.q(x)  
@@ -438,7 +438,7 @@ class Merge_Attention(nn.Module):
         self.convout = nn.Conv2d(dim, dim, kernel_size=1, bias=bias)
 
     def forward(self, x, y):
-        assert x.shape == y.shape,
+        assert x.shape == y.shape
         b, c, h, w = x.shape
 
         q1 = self.q1(x)
